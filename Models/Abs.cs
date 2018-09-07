@@ -2,21 +2,20 @@ using System.ComponentModel.DataAnnotations;
 
 public class Abdominal
 {
-public enum Abs
-    {
         [Display(Name = "Hängande Ben Twist")]
-        Hbt,
+        public string HBT { get; set; }
         [Display(Name = "Ben Saxen")]
-        BenSaxen,
+        public string BenSaxen { get; set; }
         [Display(Name = "Fot Paddel")]
-        FotPaddel,
-        [Display(Name = "Liggande Cycle")]
-        LiggandeCyckle,
-        Pingvingen,
-        AbCrunches,
+        public string FotPaddel { get; set; }
+        [Display(Name = "Liggande Cyckel")]
+        public string LiggandeCyckel { get; set; }
+        public string Pingvinen { get; set; }
+        public string  AbCrunches { get; set; }
 
         [Display(Name = "Failed Felatio")]
-        Failedfelatio
+        public string FailedFelaton { get; set; }
+        
 
-    }
+    
 }
